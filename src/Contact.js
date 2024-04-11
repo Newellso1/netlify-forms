@@ -2,6 +2,7 @@ export default function Contact() {
   return (
     <div>
       <form name="contact" method="post">
+        <input type="hidden" name="form-name" value="contact" />
         <input type="text" id="name" name="name" placeholder="name" />
         <input type="email" id="email" name="email" placeholder="email" />
         <div>
